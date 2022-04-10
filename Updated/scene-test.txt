@@ -1,0 +1,104 @@
+# id	file_path	transparent_color_r	g	b
+[TEXTURES]
+0	textures\rambo.png	255	255	255
+20	textures\misc.png	176	224	248
+
+
+# id	left	top	right	bottom	texture_id
+[SPRITES]
+# BIG MARIO 
+# idle right
+10001	507	1	537	41	0
+# walk
+10002	539	1	567	42	0		
+10003	568	1	599	41	0
+10004	600	1	632	42	0
+10005	634	1	661	41	0
+10006	665	1	694	41	0
+# jump
+10051	463	191	492	232	0
+# idle left
+10011	263	1	293	41	0
+#walk
+10012	233	1	261	42	0
+10013	200	1	232	41	0
+10014	167	1	199	42	0
+10015	138	1	165	41	0
+#jump
+10041	308	191	337	235	0
+# die 
+10099	215	120	231	135	0
+# SMALL MARIO
+# idle small right
+10021	247	0	259	15	0
+# walk
+10022	275	0	291	15	0
+10023	306	0	320	15	0
+# idle small left
+10031	187	0	198	15	0
+# walk
+10032	155	0	170	15	0
+10033	125	0	139	15	0
+
+#QUESTION BRICK
+40001	300	117	316	133	20
+40002	318	117	334	133	20
+40003	336	117	352	133	20
+40004	355	117	370	133	20
+
+# ani_id	sprite1_id	time1	sprite2_id	time2	...
+[ANIMATIONS]
+# ==== MARIO =========
+#idle BIG right
+400	10001	100
+#idle BIG left
+401	10011	100
+#idle small right
+402	10021	100
+#idle small left
+403	10031	100
+#walk right big
+500	10002	100	10003	100	10004	100	10005	100	10006	100
+#walk left big
+501	10011	100	10012	100	10013	100	10014	100	10015	100
+#walk right small
+502	10021	100	10022	100	10023	100
+#walk left small
+503	10031	100	10032	100	10033	100
+#jump right
+514	10041	100
+#jump left
+515	10051	100
+#die
+599	10099	100
+
+# ==== QUESTION BRICK =========
+602	40001	1000	40001	100	40002	100	40003	100	40004	100
+
+#
+# id	ani1	ani2	ani3
+#
+[ANIMATION_SETS]
+# MARIO
+1	400	401	402	403	500	501	502	503	514	515	599
+# QUESTION BRICK 
+22	602
+
+[OBJECTS]
+# type	x	y	ani_set_id	extra_settings per object type
+# type: 0 = Mario , 1 = Brick, 2 = Goomba, 3 = Koopas
+# MARIO
+0	17	95	1
+
+# BRICK 
+1	0	135	22
+1	0	166	22
+1	16	166	22
+1	32	150	22
+1	100	150	22
+1	115	150	22
+1	130	150	22
+
+# --- SCENE PORTAL ----
+# type	l	t	ani_set_id	r	b	scene_id
+50	115	98	0	148	150	1
