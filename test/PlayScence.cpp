@@ -34,8 +34,6 @@ CPlayScene::CPlayScene(int id, LPCWSTR filePath):
 #define OBJECT_TYPE_GOOMBA	2
 #define OBJECT_TYPE_KOOPAS	3
 #define OBJECT_TYPE_KILLER	4
-#define OBJECT_TYPE_LOCUST	5
-#define OBJECT_TYPE_JELLY	6
 
 
 #define OBJECT_TYPE_PORTAL	50
@@ -163,8 +161,6 @@ void CPlayScene::_ParseSection_OBJECTS(string line)
 	case OBJECT_TYPE_BRICK: obj = new CBrick(); break;
 	case OBJECT_TYPE_KOOPAS: obj = new CBCRAB(); break;
 	case OBJECT_TYPE_KILLER: obj = new CKiller(); break;
-	case OBJECT_TYPE_LOCUST: obj = new CLOCUST(); break;
-	case OBJECT_TYPE_JELLY: obj = new CJELLY(); break;
 	case OBJECT_TYPE_PORTAL: 
 		{	
 			float r = atof(tokens[4].c_str());

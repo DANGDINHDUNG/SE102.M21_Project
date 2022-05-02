@@ -12,9 +12,9 @@ public:
 	}
 	void Update(float width, float height)
 	{
-		if (x > 59.9 * 30.0f)
+		if (x > 79.9 * 30.0f)
 		{
-			x = 59.8 * 30.0f - (width / 2);
+			x = 79.8 * 30.0f - (width / 2);
 			y -= height / 2;
 		}
 		else if (x < -2.5 * 30.0f)

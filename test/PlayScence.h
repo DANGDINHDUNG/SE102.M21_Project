@@ -9,8 +9,6 @@
 #include "BIGCRAB.h"
 #include "Killer.h"
 #include "Grid.h"
-#include "Locust.h"
-#include "Jellyfish.h"
 
 
 class CPlayScene: public CScene

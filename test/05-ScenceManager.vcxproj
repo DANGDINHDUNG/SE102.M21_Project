@@ -129,8 +129,6 @@
     <ClCompile Include="BigCrab.cpp" />
     <ClCompile Include="Bullet.cpp" />
     <ClCompile Include="Grid.cpp" />
-    <ClCompile Include="Jellyfish.cpp" />
-    <ClCompile Include="Locust.cpp" />
     <ClCompile Include="Portal.cpp" />
     <ClCompile Include="Killer.cpp" />
     <ClCompile Include="Utils.cpp" />
@@ -150,9 +148,7 @@
     <ClInclude Include="Bullet.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="Grid.h" />
-    <ClInclude Include="Jellyfish.h" />
     <ClInclude Include="Killer.h" />
-    <ClInclude Include="Locust.h" />
     <ClInclude Include="test.h" />
     <ClInclude Include="BigCrab.h" />
     <ClInclude Include="Portal.h" />
