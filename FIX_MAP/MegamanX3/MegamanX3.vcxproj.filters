@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{d563476a-df9b-4978-9a4d-b24fcef77ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Define">
+      <UniqueIdentifier>{607b280f-5a3b-4102-bcea-6ee483b27f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\source">
+      <UniqueIdentifier>{118f7a8d-1993-41bb-8d31-6664e28862df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain">
+      <UniqueIdentifier>{206cfaa4-d0fb-4815-8270-8c6be163fc3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\Define">
+      <UniqueIdentifier>{6a21a332-2064-4333-bfb9-2c0c829798a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\Source">
+      <UniqueIdentifier>{1904ab9f-67fd-4c37-bc82-f568c9210ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{6ba7f636-9703-454c-96bb-c4a6b3493be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Define">
+      <UniqueIdentifier>{c56c4a7d-ced4-4506-864c-67bdeafd5ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Source">
+      <UniqueIdentifier>{f1c40e54-c7e1-49e2-bd5d-4566c2a0af25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Define\Enemies">
+      <UniqueIdentifier>{d1c1e7e8-296e-4d9a-b5de-4b069ab30329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Define\Map">
+      <UniqueIdentifier>{5952381f-aebb-4a80-9d14-e60d3d974977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\source\Map">
+      <UniqueIdentifier>{9dc9e938-6c5d-4c23-a9bb-e59e7498f5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Define\Bullet">
+      <UniqueIdentifier>{6b6a4dbe-0df4-4bcf-9a5c-f57924c1f583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Source\Bullet">
+      <UniqueIdentifier>{f0cb8e78-2b89-4d2e-8edf-d1ab5bbbef5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Define\Static">
+      <UniqueIdentifier>{7322e035-ec20-4e1c-ab56-544de568d773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Source\Static">
+      <UniqueIdentifier>{cc94354b-4046-4a14-bee0-2c070373a5c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Source\Bullet\Enemies">
+      <UniqueIdentifier>{8f821a4a-da89-40f1-93dd-70d66f1f9c72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyTexture.h">
+      <Filter>FrameWork\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>FrameWork\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>FrameWork\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>GameMain\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGame.h">
+      <Filter>GameMain\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Megaman.h">
+      <Filter>Objects\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>FrameWork\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Objects\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>FrameWork\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Objects\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>FrameWork\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Objects\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualObject.h">
+      <Filter>Objects\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionObject.h">
+      <Filter>Objects\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="NotorBanger.h">
+      <Filter>Objects\Define\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="TXT.h">
+      <Filter>FrameWork\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="BlastHornet.h">
+      <Filter>Objects\Define\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Helit.h">
+      <Filter>Objects\Define\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Bee.h">
+      <Filter>Objects\Define\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Shurikein.h">
+      <Filter>Objects\Define\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadGunnerCustomer.h">
+      <Filter>Objects\Define\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>FrameWork\Define\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>FrameWork\Define\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>FrameWork\Define\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>FrameWork\Define\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CarryArm.h">
+      <Filter>Objects\Define\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Objects\Define\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Speedburner.h">
+      <Filter>Objects\Define\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponSystem.h">
+      <Filter>Objects\Define\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="NotorbangerBullet.h">
+      <Filter>Objects\Define\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="MegamanBullet1.h">
+      <Filter>Objects\Define\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="MegamanBullet2.h">
+      <Filter>Objects\Define\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="MegamanBullet3.h">
+      <Filter>Objects\Define\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Launchers.h">
+      <Filter>Objects\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadGunnerCustomerBulletTube.h">
+      <Filter>Objects\Define\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DashSpark.h">
+      <Filter>Objects\Define\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DashSmoke.h">
+      <Filter>Objects\Define\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorShurikein.h">
+      <Filter>Objects\Define\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="Genjibo.h">
+      <Filter>Objects\Define\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorRightShurikein.h">
+      <Filter>Objects\Define\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="HelitBullet.h">
+      <Filter>Objects\Define\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="SubBossCarry.h">
+      <Filter>Objects\Define\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="CarryBox.h">
+      <Filter>Objects\Define\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="TextStartGame.h">
+      <Filter>Objects\Define\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaCapsule.h">
+      <Filter>Objects\Define\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaCapsuleBullet.h">
+      <Filter>Objects\Define\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DoorBlasHornet.h">
+      <Filter>Objects\Define\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxBox.h">
+      <Filter>Objects\Define\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Honey.h">
+      <Filter>Objects\Define\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBlood.h">
+      <Filter>Objects\Define\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="Elevator.h">
+      <Filter>Objects\Define\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="DieBox.h">
+      <Filter>Objects\Define\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>FrameWork\Define</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyTexture.cpp">
+      <Filter>FrameWork\source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>FrameWork\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>FrameWork\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>GameMain\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGame.cpp">
+      <Filter>GameMain\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Megaman.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>FrameWork\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>FrameWork\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>FrameWork\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualObject.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionObject.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="NotorBanger.cpp">
+      <Filter>Objects\Source\Bullet\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="TXT.cpp">
+      <Filter>FrameWork\source</Filter>
+    </ClCompile>
+    <ClCompile Include="BlastHornet.cpp">
+      <Filter>Objects\Source\Bullet\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Helit.cpp">
+      <Filter>Objects\Source\Bullet\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Bee.cpp">
+      <Filter>Objects\Source\Bullet\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Shurikein.cpp">
+      <Filter>Objects\Source\Bullet\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadGunnerCustomer.cpp">
+      <Filter>Objects\Source\Bullet\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>FrameWork\source\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>FrameWork\source\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>FrameWork\source\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>FrameWork\source\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CarryArm.cpp">
+      <Filter>Objects\Source\Bullet\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Objects\Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Speedburner.cpp">
+      <Filter>Objects\Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponSystem.cpp">
+      <Filter>Objects\Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="NotorbangerBullet.cpp">
+      <Filter>Objects\Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="MegamanBullet1.cpp">
+      <Filter>Objects\Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="MegamanBullet2.cpp">
+      <Filter>Objects\Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="MegamanBullet3.cpp">
+      <Filter>Objects\Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Launchers.cpp">
+      <Filter>Objects\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadGunnerCustomerBulletTube.cpp">
+      <Filter>Objects\Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DashSpark.cpp">
+      <Filter>Objects\Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DashSmoke.cpp">
+      <Filter>Objects\Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorShurikein.cpp">
+      <Filter>Objects\Source\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="Genjibo.cpp">
+      <Filter>Objects\Source\Bullet\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorRightShurikein.cpp">
+      <Filter>Objects\Source\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="HelitBullet.cpp">
+      <Filter>Objects\Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="SubBossCarry.cpp">
+      <Filter>Objects\Source\Bullet\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="CarryBox.cpp">
+      <Filter>Objects\Source\Bullet\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="TextStartGame.cpp">
+      <Filter>Objects\Source\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaCapsule.cpp">
+      <Filter>Objects\Source\Bullet\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaCapsuleBullet.cpp">
+      <Filter>Objects\Source\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DoorBlasHornet.cpp">
+      <Filter>Objects\Source\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxBox.cpp">
+      <Filter>Objects\Source\Bullet\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Honey.cpp">
+      <Filter>Objects\Source\Bullet\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBlood.cpp">
+      <Filter>Objects\Source\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="Elevator.cpp">
+      <Filter>Objects\Source\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="DieBox.cpp">
+      <Filter>Objects\Source\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>FrameWork\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
